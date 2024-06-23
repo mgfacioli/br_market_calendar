@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "br_market_calendar"
+version = "0.1.0"
+description = "Python module that provides a set of functions to work with dates, holidays and brazilian financial market calendar"
+authors = ["Marcelo G Facioli"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
